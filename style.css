@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #86b8b1;
+    --color-secondary: #e9f0c9;
+    --color-tertiary: #000000;
+    --color-button: #fce07f;
+    --color-button-hover: #fcc71b;
+    --color-text: #000000;
+    --color-white: #ffffff;
 }
 
 /* Estilos gerais */
@@ -34,16 +34,17 @@ body {
 .header-banner {
     flex: 40%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 50px 0 50px;
 }
 
 /* Seção de entrada */
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 2px solid #000;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -54,18 +55,17 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-size: 65px;
+    font-family: "Lilita One", serif;
     font-weight: 900;
-    font-style: italic;
-    color: var(--color-white);
+    color: var(--color-text);
 }
 
 .section-title {
-    font-family: "Inter", serif;
-    font-size: 36px;
+    font-family: "Signika", serif;
+    font-size: 25px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-text);
     margin: 10px 0;
     text-align: center;
 }
@@ -84,7 +84,17 @@ body {
     padding: 10px;
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: "Signika", sans-serif;
+}
+
+li{
+    background-color: var(--color-white);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+
 }
 
 .button-container {
@@ -97,49 +107,45 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: "Signika", serif;
 }
 
 /* Estilos de botão */
 button {
     padding: 15px 30px;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    border: 2px solid #000;
+    font-family: "Signika", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
     border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
+    background-color: var(--color-button);
     color: var(--color-text);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: var(--color-button-hover);
 }
 
 /* Listas */
 ul {
     list-style-type: none;
     color: var(--color-text);
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    margin: 20px 0;
+    font-family: "Signika", sans-serif;
+    font-size: 20px;
 }
 
 .result-list {
-    margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    color: var(--color-text);
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Botão de sortear título */
@@ -148,9 +154,9 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    color: var(--color-white);
+    color: var(--color-text);
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .button-draw img {
