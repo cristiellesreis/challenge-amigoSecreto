@@ -180,7 +180,7 @@ Os nomes inseridos serão exibidos em uma lista visível na página, e ao finali
 * Feel free to share your inspiration sources, Stackoverflow questions, github repos, tools etc.
 -->
 
-[Challenge Amigo Secreto](https://www.makeareadme.com/)
+[Challenge Amigo Secreto](https://cristiellesreis.github.io/challenge-amigoSecreto/)
 
 
 <!-- - Use this html element to create a back to top button. -->
