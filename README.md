@@ -29,6 +29,10 @@ Os nomes inseridos serão exibidos em uma lista visível na página, e ao finali
 
 <br>
 
+## Futuras features
+- Responsividade
+- Botão recomeçar jogo
+
 ## Demo
 
 <div align="center">
